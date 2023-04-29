@@ -1,0 +1,17 @@
+---
+title: ""
+listing: 
+    contents: 
+        - "recipes/*.qmd"
+    type: grid
+---
+
+Welcome to my flavorful corner of the internet! As someone who delights in experimenting with new recipes, I've found that generative AI brings a novel twist to the kitchen. By providing innovative and unique combinations, it keeps my culinary journey fresh. This website serves as both a repository for the dishes I've tried and a space for me to reflect on what worked and what did not.
+
+Inspired by the delectable artistry of Yotam Ottolenghi, I often challenge the generative AI to reimagine his recipes with alternative ingredients, ensuring that my pantry's constraints never dull my taste buds. I invite you to explore this collection of recipes, and perhaps discover your own flavorful inspiration along the way.
+
+<br>
+
+## Recipes
+
+

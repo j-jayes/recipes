@@ -1,0 +1,28 @@
+---
+title: "Recipe Art"
+format: html
+---
+
+I had some fun making some recipe art as part of this project.
+
+Each fruit has a fun picture and some eclectic recipes suggestions in alphabetic order.
+
+::: {.grid}
+
+::: {.g-col-6}
+![](recipe-art-images/Grapefruit.jpg)
+:::
+
+::: {.g-col-6}
+![](recipe-art-images/Lemons.jpg)
+:::
+
+::: {.g-col-6}
+![](recipe-art-images/Oranges.jpg)
+:::
+
+::: {.g-col-6}
+![](recipe-art-images/Satsuma.jpg)
+:::
+
+:::

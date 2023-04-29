@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My cookbook"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "{{< fa book-open >}} Recipes"
+      - href: content/recipe-art.qmd
+        text: "{{< fa palette >}} Imagery"
+    
+
+format:
+  html:
+    theme:
+    - flatly
+    - assets/custom.scss
+    css: assets/styles.css
+    toc: true
+
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto
