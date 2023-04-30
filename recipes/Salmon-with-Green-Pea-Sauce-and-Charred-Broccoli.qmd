@@ -1,13 +1,14 @@
 ---
 title: "Salmon with Green Pea Sauce and Charred Broccoli"
 format: html
+date: 04-26-2023
 image: previews/Salmon%20with%20Green%20Pea%20Sauce%20and%20Charred%20Broccoli.png
 ---
 
 :::: {.columns}
 
 ::: {.column width="30%"}
-Prepared for a dinner party on the 26th on April 2023 in Lund.
+Prepared for a dinner party on the 26th of April 2023 in Lund.
 :::
 
 ::: {.column width="5%"}

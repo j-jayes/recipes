@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-04-26">
 
-<title>My cookbook - Salmon with Green Pea Sauce and Charred Broccoli</title>
+<title>My cookbook – recipes-listing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,9 +62,39 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../assets/styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -73,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">My cookbook</span>
     </a>
   </div>
@@ -83,11 +114,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text"><i class="fa-solid fa-book-open" aria-label="book-open"></i> Recipes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../content/recipe-art.html">
+    <a class="nav-link" href="./content/recipe-art.html">
  <span class="menu-text"><i class="fa-solid fa-palette" aria-label="palette"></i> Imagery</span></a>
   </li>  
 </ul>
@@ -105,89 +136,108 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#starter-salmon-with-green-pea-sauce-and-charred-broccoli" id="toc-starter-salmon-with-green-pea-sauce-and-charred-broccoli" class="nav-link active" data-scroll-target="#starter-salmon-with-green-pea-sauce-and-charred-broccoli">Starter: Salmon with Green Pea Sauce and Charred Broccoli</a></li>
-  <li><a href="#main-course-beef-roast-with-ottolenghi-inspired-roast-potatoes" id="toc-main-course-beef-roast-with-ottolenghi-inspired-roast-potatoes" class="nav-link" data-scroll-target="#main-course-beef-roast-with-ottolenghi-inspired-roast-potatoes">Main Course: Beef Roast with Ottolenghi-inspired Roast Potatoes</a></li>
+  <li><a href="#recipes" id="toc-recipes" class="nav-link active" data-scroll-target="#recipes">Recipes</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Salmon with Green Pea Sauce and Charred Broccoli</h1>
-</div>
 
 
+<p>Welcome to my flavorful corner of the internet! As someone who delights in experimenting with new recipes, I’ve found that generative AI brings a novel twist to the kitchen. By providing innovative and unique combinations, it keeps my culinary journey fresh. This website serves as both a repository for the dishes I’ve tried and a space for me to reflect on what worked and what did not.</p>
+<p>Inspired by the delectable artistry of Yotam Ottolenghi, I often challenge the generative AI to reimagine his recipes with alternative ingredients, ensuring that my pantry’s constraints never dull my taste buds. I invite you to explore this collection of recipes, and perhaps discover your own flavorful inspiration along the way.</p>
+<p><br></p>
+<section id="recipes" class="level2">
+<h2 class="anchored" data-anchor-id="recipes">Recipes</h2>
 
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 26, 2023</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-</header>
-
-<div class="columns">
-<div class="column" style="width:30%;">
-<p>Prepared for a dinner party on the 26th of April 2023 in Lund.</p>
-</div><div class="column" style="width:5%;">
-
-</div><div class="column" style="width:65%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="previews/Salmon with Green Pea Sauce and Charred Broccoli.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<p></p><figcaption class="figure-caption">Prompt: “Paint a beautiful Gustave Caillebotte-inspired dining scene_ glistening salmon fillets with golden skin, accompanied by vibrant green pea sauce”</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="starter-salmon-with-green-pea-sauce-and-charred-broccoli" class="level2">
-<h2 class="anchored" data-anchor-id="starter-salmon-with-green-pea-sauce-and-charred-broccoli">Starter: Salmon with Green Pea Sauce and Charred Broccoli</h2>
-<p>Ingredients: - 6 salmon fillets (about 150g each, skin on)</p>
-<ul>
-<li><p>400g frozen green peas, thawed</p></li>
-<li><p>handful of mint, washed</p></li>
-<li><p>200ml heavy cream</p></li>
-<li><p>1 small garlic clove, crushed</p></li>
-<li><p>Zest and juice of 1 lemon</p></li>
-<li><p>Salt and freshly ground black pepper</p></li>
-<li><p>500g broccoli, cut into florets</p></li>
-<li><p>2 tbsp olive oil</p></li>
-<li><p>1 tbsp chopped fresh dill for garnish</p></li>
-</ul>
-<p>Instructions: 1. Preheat the oven to 180°C (350°F).</p>
-<ol start="2" type="1">
-<li><p>Season the salmon fillets with salt and pepper. Place them on a baking tray, skin side down, and roast for 12-15 minutes, or until cooked to your desired level.</p></li>
-<li><p>In the meantime, prepare the green pea sauce. In a blender, combine the peas, heavy cream, garlic, lemon zest, and juice. Blend until smooth, then season with salt and pepper to taste. If the sauce is too thick, add a splash of water to thin it out.</p></li>
-<li><p>In a large bowl, toss the broccoli florets with olive oil, salt, and pepper. Heat a large grill pan or skillet over medium-high heat. Cook the broccoli, turning occasionally, until charred and tender, about 5-7 minutes.</p></li>
-<li><p>To serve, spoon some green pea sauce onto each plate, top with a salmon fillet, and arrange the charred broccoli alongside. Garnish with fresh dill.</p></li>
-</ol>
-</section>
-<section id="main-course-beef-roast-with-ottolenghi-inspired-roast-potatoes" class="level2">
-<h2 class="anchored" data-anchor-id="main-course-beef-roast-with-ottolenghi-inspired-roast-potatoes">Main Course: Beef Roast with Ottolenghi-inspired Roast Potatoes</h2>
-<p>Ingredients: - 1.5kg beef roast (such as topside or rib-eye) - Salt and freshly ground black pepper - 3 tbsp olive oil - 1.2kg small waxy potatoes, peeled and halved - 2 tbsp za’atar - 1 tbsp sumac - Zest of 1 lemon - 3 tbsp chopped fresh parsley</p>
-<p>Instructions: 1. Preheat the oven to 200°C (400°F).</p>
-<ol start="2" type="1">
-<li><p>Season the beef roast generously with salt and pepper. Heat 2 tbsp of olive oil in a large ovenproof skillet or roasting pan over medium-high heat. Sear the beef on all sides until browned, about 3-4 minutes per side.</p></li>
-<li><p>Transfer the skillet or roasting pan to the oven and roast the beef for 50-60 minutes, or until a meat thermometer inserted into the thickest part of the roast reads 52°C (125°F) for medium-rare. Adjust the cooking time if you prefer your beef more well-done.</p></li>
-<li><p>Remove the beef from the oven, tent with foil, and let it rest for 15-20 minutes.</p></li>
-<li><p>While the beef is resting, prepare the roast potatoes. In a large bowl, toss the potatoes with the remaining 1 tbsp of olive oil, za’atar, sumac, and a pinch of salt and pepper. Spread the potatoes in a single layer on a baking sheet and roast for 35-40 minutes, or until golden and crispy, turning them halfway through cooking.</p></li>
-<li><p>To serve, slice the beef roast and arrange on a platter with the roasted potatoes. Sprinkle the potatoes with lemon zest and chopped parsley.</p></li>
-</ol>
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1682460000000" data-listing-file-modified-sort="1682847973534" data-listing-reading-time-sort="2.36">
+<a href="./recipes/Salmon-with-Green-Pea-Sauce-and-Charred-Broccoli.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./recipes/previews/Salmon with Green Pea Sauce and Charred Broccoli.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Salmon with Green Pea Sauce and Charred Broccoli
+</h5>
+<div class="card-text listing-description">
+Prepared for a dinner party on the 26th of April 2023 in Lund.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 26, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1681423200000" data-listing-file-modified-sort="1682847989434" data-listing-reading-time-sort="1.305">
+<a href="./recipes/Roasted-Cauliflower-and-Chickpea-Salad.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./recipes/previews/Roasted Cauliflower and Chickpea Salad.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Roasted Cauliflower and Chickpea Salad
+</h5>
+<div class="card-text listing-description">
+Prepared for a soirée on the 14th of April in Paris.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Apr 14, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1674255600000" data-listing-file-modified-sort="1682847940066" data-listing-reading-time-sort="0.195">
+<a href="./recipes/Gammon-and-vegetable-stew-with-mint.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./recipes/previews/Gammon and Vegetable Stew with Mint.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gammon and Vegetable Stew with Mint
+</h5>
+<div class="card-text listing-description">
+
+Prepared for Instagram in January in Westbrook.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jan 21, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,6 +1,7 @@
 ---
 title: "Roasted Cauliflower and Chickpea Salad"
 format: html
+date: 04-14-2023
 image: previews/Roasted%20Cauliflower%20and%20Chickpea%20Salad.png
 ---
 

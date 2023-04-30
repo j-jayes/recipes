@@ -4,6 +4,7 @@ listing:
     contents: 
         - "recipes/*.qmd"
     type: grid
+    sort: "date desc"
 ---
 
 Welcome to my flavorful corner of the internet! As someone who delights in experimenting with new recipes, I've found that generative AI brings a novel twist to the kitchen. By providing innovative and unique combinations, it keeps my culinary journey fresh. This website serves as both a repository for the dishes I've tried and a space for me to reflect on what worked and what did not.

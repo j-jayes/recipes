@@ -1,0 +1,14 @@
+{
+  "hash": "3bc8524fbb34a23879a042bf040633c5",
+  "result": {
+    "markdown": "---\ntitle: \"Gammon and Vegetable Stew with Mint\"\nformat: html\ndate: 01-21-2023\nimage: previews/Gammon%20and%20Vegetable%20Stew%20with%20Mint.png\n---\n\n\n:::: {.columns}\n\n::: {.column width=\"30%\"}\nPrepared for Instagram in January in Westbrook.\n:::\n\n::: {.column width=\"5%\"}\n\n:::\n\n::: {.column width=\"65%\"}\n![Prompt: \"A humorous painting of a laptop inside a cooking pot, wearing a chefs hat, still life in the style of Paul Cézanne\"](previews/Gammon%20and%20Vegetable%20Stew%20with%20Mint.png){width=80%}\n:::\n\n::::\n\n\n\n::: {.cell .column-page}\n<iframe src=\"https://interludeone.com/posts/2023-01-20-chatgpt-cooks-me-dinner/chatgpt-cooks-me-dinner.html\" width=\"672\" height=\"20000\" data-external=\"1\"></iframe>\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

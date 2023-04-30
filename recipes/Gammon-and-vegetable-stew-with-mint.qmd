@@ -1,0 +1,28 @@
+---
+title: "Gammon and Vegetable Stew with Mint"
+format: html
+date: 01-21-2023
+image: previews/Gammon%20and%20Vegetable%20Stew%20with%20Mint.png
+---
+
+:::: {.columns}
+
+::: {.column width="30%"}
+Prepared for Instagram in January in Westbrook.
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="65%"}
+![Prompt: "A humorous painting of a laptop inside a cooking pot, wearing a chefs hat, still life in the style of Paul Cézanne"](previews/Gammon%20and%20Vegetable%20Stew%20with%20Mint.png){width=80%}
+:::
+
+::::
+
+
+```{r}
+#| column: page
+knitr::include_url("https://interludeone.com/posts/2023-01-20-chatgpt-cooks-me-dinner/chatgpt-cooks-me-dinner.html", height = 20000)
+```
