@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My cookbook",
-    "section": "",
-    "text": "Welcome to my flavorful corner of the internet! As someone who delights in experimenting with new recipes, I’ve found that generative AI brings a novel twist to the kitchen. By providing innovative and unique combinations, it keeps my culinary journey fresh. This website serves as both a repository for the dishes I’ve tried and a space for me to reflect on what worked and what did not.\nInspired by the delectable artistry of Yotam Ottolenghi, I often challenge the generative AI to reimagine his recipes with alternative ingredients, ensuring that my pantry’s constraints never dull my taste buds. I invite you to explore this collection of recipes, and perhaps discover your own flavorful inspiration along the way."
-  },
-  {
-    "objectID": "index.html#recipes",
-    "href": "index.html#recipes",
-    "title": "My cookbook",
-    "section": "Recipes",
-    "text": "Recipes"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -28,15 +14,15 @@
     "text": "I had some fun making some recipe art as part of this project.\nEach fruit has a fun picture and some eclectic recipes suggestions in alphabetic order."
   },
   {
-    "objectID": "listing.html",
-    "href": "listing.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "My cookbook",
     "section": "",
     "text": "Welcome to my flavorful corner of the internet! As someone who delights in experimenting with new recipes, I’ve found that generative AI brings a novel twist to the kitchen. By providing innovative and unique combinations, it keeps my culinary journey fresh. This website serves as both a repository for the dishes I’ve tried and a space for me to reflect on what worked and what did not.\nInspired by the delectable artistry of Yotam Ottolenghi, I often challenge the generative AI to reimagine his recipes with alternative ingredients, ensuring that my pantry’s constraints never dull my taste buds. I invite you to explore this collection of recipes, and perhaps discover your own flavorful inspiration along the way."
   },
   {
-    "objectID": "listing.html#recipes",
-    "href": "listing.html#recipes",
+    "objectID": "index.html#recipes",
+    "href": "index.html#recipes",
     "title": "My cookbook",
     "section": "Recipes",
     "text": "Recipes"
@@ -95,20 +81,6 @@
     "href": "recipes/Salmon-with-Green-Pea-Sauce-and-Charred-Broccoli.html#main-course-beef-roast-with-ottolenghi-inspired-roast-potatoes",
     "title": "Salmon with Green Pea Sauce and Charred Broccoli",
     "section": "Main Course: Beef Roast with Ottolenghi-inspired Roast Potatoes",
-    "text": "Main Course: Beef Roast with Ottolenghi-inspired Roast Potatoes\nIngredients: - 1.5kg beef roast (such as topside or rib-eye) - Salt and freshly ground black pepper - 3 tbsp olive oil - 1.2kg small waxy potatoes, peeled and halved - 2 tbsp za’atar - 1 tbsp sumac - Zest of 1 lemon - 3 tbsp chopped fresh parsley\nInstructions: 1. Preheat the oven to 200°C (400°F).\n\nSeason the beef roast generously with salt and pepper. Heat 2 tbsp of olive oil in a large ovenproof skillet or roasting pan over medium-high heat. Sear the beef on all sides until browned, about 3-4 minutes per side.\nTransfer the skillet or roasting pan to the oven and roast the beef for 50-60 minutes, or until a meat thermometer inserted into the thickest part of the roast reads 52°C (125°F) for medium-rare. Adjust the cooking time if you prefer your beef more well-done.\nRemove the beef from the oven, tent with foil, and let it rest for 15-20 minutes.\nWhile the beef is resting, prepare the roast potatoes. In a large bowl, toss the potatoes with the remaining 1 tbsp of olive oil, za’atar, sumac, and a pinch of salt and pepper. Spread the potatoes in a single layer on a baking sheet and roast for 35-40 minutes, or until golden and crispy, turning them halfway through cooking.\nTo serve, slice the beef roast and arrange on a platter with the roasted potatoes. Sprinkle the potatoes with lemon zest and chopped parsley."
-  },
-  {
-    "objectID": "recipes-listing.html",
-    "href": "recipes-listing.html",
-    "title": "My cookbook",
-    "section": "",
-    "text": "Welcome to my flavorful corner of the internet! As someone who delights in experimenting with new recipes, I’ve found that generative AI brings a novel twist to the kitchen. By providing innovative and unique combinations, it keeps my culinary journey fresh. This website serves as both a repository for the dishes I’ve tried and a space for me to reflect on what worked and what did not.\nInspired by the delectable artistry of Yotam Ottolenghi, I often challenge the generative AI to reimagine his recipes with alternative ingredients, ensuring that my pantry’s constraints never dull my taste buds. I invite you to explore this collection of recipes, and perhaps discover your own flavorful inspiration along the way."
-  },
-  {
-    "objectID": "recipes-listing.html#recipes",
-    "href": "recipes-listing.html#recipes",
-    "title": "My cookbook",
-    "section": "Recipes",
-    "text": "Recipes"
+    "text": "Main Course: Beef Roast with Ottolenghi-inspired Roast Potatoes\nIngredients: - 1.5kg beef roast (such as topside or rib-eye)\n\nSalt and freshly ground black pepper\n3 tbsp olive oil\n1.2kg small waxy potatoes, peeled and halved\n2 tbsp za’atar\n1 tbsp sumac\nZest of 1 lemon\n3 tbsp chopped fresh parsley\n\nInstructions: 1. Preheat the oven to 200°C (400°F).\n\nSeason the beef roast generously with salt and pepper. Heat 2 tbsp of olive oil in a large ovenproof skillet or roasting pan over medium-high heat. Sear the beef on all sides until browned, about 3-4 minutes per side.\nTransfer the skillet or roasting pan to the oven and roast the beef for 50-60 minutes, or until a meat thermometer inserted into the thickest part of the roast reads 52°C (125°F) for medium-rare. Adjust the cooking time if you prefer your beef more well-done.\nRemove the beef from the oven, tent with foil, and let it rest for 15-20 minutes.\nWhile the beef is resting, prepare the roast potatoes. In a large bowl, toss the potatoes with the remaining 1 tbsp of olive oil, za’atar, sumac, and a pinch of salt and pepper. Spread the potatoes in a single layer on a baking sheet and roast for 35-40 minutes, or until golden and crispy, turning them halfway through cooking.\nTo serve, slice the beef roast and arrange on a platter with the roasted potatoes. Sprinkle the potatoes with lemon zest and chopped parsley."
   }
 ]
