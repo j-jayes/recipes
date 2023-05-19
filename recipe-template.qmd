@@ -1,0 +1,26 @@
+---
+title: "Title"
+format: html
+date: today
+image: previews/image.png
+---
+
+:::: {.columns}
+
+::: {.column width="30%"}
+Recipe for...
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="65%"}
+![Prompt: "prompt"](previews/image.png){width=80%}
+:::
+
+::::
+
+## Ingredients
+
+## Instructions

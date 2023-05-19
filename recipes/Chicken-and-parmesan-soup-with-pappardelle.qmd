@@ -1,0 +1,86 @@
+---
+title: "Chicken and parmesan soup with pappardelle"
+format: html
+date: 05-19-2023
+image: previews/Chicken and parmesan soup with pappardelle.png
+---
+
+:::: {.columns}
+
+::: {.column width="30%"}
+Recipe for a sick Kathy, based on [this recipe](https://www.theguardian.com/food/2019/feb/23/soup-recipes-yotam-ottolenghi-chicken-parmesan-lemon-lentil-burnt-aubergine).
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="65%"}
+![Prompt: "Using the contrast and realism found in Johannes Vermeer's paintings, create a vibrant still life image, showcasing the 'Chicken and Parmesan Soup with Pappardelle'. Illuminate the scene with warm, soft light akin to Vermeer's 'The Milkmaid', emphasizing the rich texture of the soup, the steam rising from the bowl"](previews/Chicken and parmesan soup with pappardelle.png){width=80%}
+:::
+
+::::
+
+## Info
+
+Prep 20 min
+Cook 1 hr 10 min
+Serves 4
+
+## Ingredients
+
+- 1.4 kg of chicken pieces (such as thighs or breasts)
+
+- 1 whole head garlic, halved, plus 4 cloves, peeled and crushed
+
+- 1 onion, cut into 4 wedges
+
+- Salt and black pepper
+
+- 2 tbsp olive oil
+
+- 2 carrots, peeled and cut into roughly 15mm cubes (220g net weight)
+
+- 3 sticks celery, cut at an angle into roughly 1cm-thick slices (200g net weight)
+
+- 3 bay leaves
+
+- 1½ tbsp thyme leaves, finely chopped
+
+- 60g parmesan, finely grated, plus 1 small piece of rind
+
+- 5 plum tomatoes, coarsely grated and skins discarded (320g)
+
+- 2 tsp tomato paste
+
+- 180g dried pappardelle nests
+
+- 15g basil leaves, finely shredded
+
+- 1 red chilli, deseeded and finely chopped
+
+- 500ml beer of your choice
+
+- 1.5 litres of water (or chicken stock if you prefer)
+
+## Instructions
+
+1. Season chicken pieces with salt and black pepper. 
+
+2. Put the olive oil in a large pan and set over medium-high heat. Add chicken pieces to the pan and saute until browned on all sides. Remove the chicken pieces and set aside. 
+
+3. In the same pan, saute the garlic, onion, carrots and celery for about 4 minutes until they start to soften. 
+
+4. Return the chicken pieces to the pan, add the bay leaves, thyme, parmesan rind, the beer, water (or chicken stock), and bring to a simmer. Cover and cook for 40-50 minutes, or until the chicken is cooked through. 
+
+5. Remove the chicken pieces and once cool enough to handle, shred the meat; discard the skin and bones. 
+
+6. Add the crushed garlic, tomatoes, and tomato paste to the pan. Cook for three minutes, until the tomatoes cook down slightly. If using water, add 1.5 litres of hot water, salt, and a generous grind of pepper. Bring to a boil, then lower the heat to medium and cook for 15 minutes, or until the vegetables have softened. 
+
+7. Ladle out 400g of the soup, about 50/50 liquid to solids (avoid the bay and rind), transfer to a blender and blitz smooth. Stir back into the soup pan and turn up the heat to medium-high. 
+
+8. Add the pasta, shredded chicken and a good grind of pepper, and cook for 15 minutes, or until the pasta is al dente. Discard the bay leaves and parmesan rind. 
+
+9. Divide the soup between four bowls, top with the basil, chilli, a good grind of pepper and a sprinkling of grated parmesan, and serve with extra parmesan alongside.
+
+This should give you a similar flavor profile to the original recipe, but with a hint of beer flavor from the added beer in the cooking process.
