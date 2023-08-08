@@ -1,0 +1,53 @@
+---
+title: "Apple and Rhubarb Jam Tartlets with Custard Filling"
+format: html
+date: 08-08-2023
+---
+
+:::: {.columns}
+
+::: {.column width="30%"}
+I need help making a recipe for desert for this evening. We have some lovely tart apples, lots of eggs, some rhubarb jam, and can also go shopping for more ingredients.
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="65%"}
+![Prompt: "Using the contrast and realism found in Johannes Vermeer's paintings, create a vibrant still life image, showcasing the 'Chicken and Parmesan Soup with Pappardelle'. Illuminate the scene with warm, soft light akin to Vermeer's 'The Milkmaid', emphasizing the rich texture of the soup, the steam rising from the bowl"](){width=80%}
+:::
+
+::::
+
+### Ingredients:
+
+#### For the custard filling:
+- 1 cup whole milk
+- 1/2 vanilla bean (or 1 tsp vanilla extract)
+- 3 egg yolks
+- 1/4 cup granulated sugar
+- 1 tbsp cornstarch
+- 1 tbsp unsalted butter
+
+#### For the topping:
+- Tart apples (sliced thinly)
+- Coconut syrup for glazing
+
+### Instructions:
+
+#### Custard Filling:
+1. In a saucepan, heat the milk and vanilla bean (scraped seeds and pod) until just boiling. Remove from heat and discard the pod (if using).
+2. In a separate bowl, whisk together the egg yolks, sugar, and cornstarch until pale and thick.
+3. Slowly pour the hot milk into the egg mixture while whisking constantly.
+4. Pour the mixture back into the saucepan and cook over medium heat, whisking constantly until thickened. This should take around 3-5 minutes.
+5. Remove from heat, stir in the butter until melted, and transfer the custard to a bowl. Cover with plastic wrap, pressing it directly onto the surface to prevent a skin from forming. Let cool to room temperature.
+
+#### Assembly:
+1. Fill each pre-made tartlet base with the custard filling, about 3/4 full.
+2. Arrange the thinly sliced apples on top in a decorative manner.
+3. If you have an oven-safe tartlet base, you can optionally place them under a broiler/grill for a few minutes to lightly caramelize the apples. Watch closely to ensure they don't burn.
+4. Drizzle or brush the coconut syrup over the apples for a glossy and flavorful finish.
+5. Allow the tartlets to set a bit in the refrigerator for about 30 minutes to 1 hour.
+
+Serve and enjoy! The combination of the rich custard, tart apples, and sweet coconut syrup should be delightful.
